@@ -40,6 +40,13 @@ module.exports = {
                 "css-loader",
                 "less-loader",
             ],
+        },{
+            test: /\.styl$/i,
+            use: [
+                "style-loader",
+                "css-loader",
+                "stylus-loader",
+            ],
         }],
     },
 };
