@@ -1,3 +1,3 @@
-import css from  "./style.css"
+import css from  "./style.scss"
 
 export default "hello webpack";
